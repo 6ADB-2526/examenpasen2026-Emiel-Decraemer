@@ -15,13 +15,13 @@ export default function UserList({ users, registeredUsers }: Props) {
            <li className='geregistreerd'>{user} (geregistreerd)</li> 
         ))}
         {/* werkt niet maar is dichter bij een oplossing. om geen error te geven staat het in comment. */}
-        {users.map((user) => (
+        {/* {users.map((user) => (
             {(user == registeredUsers.find(user)) ? (
                 <li className='geregistreerd'>{user} (Geregistreerde gebruiker)</li> 
             ) : (
                 <li className='ongeregistreerd'>{user} (Ongeregistreerde gebruiker)</li>
             )}
-        ))}
+        ))} */}
     </ul>
     </>
 }
