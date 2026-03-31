@@ -7,9 +7,9 @@ interface Props {
 
 export default function UserList({ users, registeredUsers }: Props) {
     return <>
-    <h1>Geregistreerde Gebruikers</h1>
+    <h1>Geregistreerde Gebruikers: </h1>
     <ul>
-        {registeredUsers.map((user) => (
+        {users.map((user) => (
            <li>{user}</li> 
         ))}
     </ul>
